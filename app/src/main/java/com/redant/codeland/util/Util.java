@@ -1,7 +1,5 @@
 package com.redant.codeland.util;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Handler;
@@ -15,11 +13,12 @@ import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.app.hubert.guide.NewbieGuide;
-import com.app.hubert.guide.listener.OnLayoutInflatedListener;
 import com.app.hubert.guide.model.GuidePage;
 import com.redant.codeland.R;
-//import com.redant.kidprogramming.app.MyApplication;
 import com.redant.codeland.app.MyApplication;
 import com.redant.codeland.entity.Animal;
 import com.redant.codeland.entity.Celebrity;
@@ -41,6 +40,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+//import com.redant.kidprogramming.app.MyApplication;
 
 /**
  * Created by Administrator on 2017-12-18.
@@ -995,7 +996,7 @@ public class Util {
      * 显示引导的蒙版（最为一般的：一张图片+一段文字）
      */
     public static void showGuide(final Context context, final int textId, final int imgId) {
-        NewbieGuide.with((Activity) context)
+        NewbieGuide.with((AppCompatActivity) context)
                 .setLabel("page")
                 .alwaysShow(true)
                 .addGuidePage(

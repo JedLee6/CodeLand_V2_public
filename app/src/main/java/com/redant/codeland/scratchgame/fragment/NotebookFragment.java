@@ -2,26 +2,22 @@ package com.redant.codeland.scratchgame.fragment;
 
 import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 
 import com.redant.codeland.R;
 import com.redant.codeland.adapter.BaikeListAdapter;
-import com.redant.codeland.app.MyApplication;
 import com.redant.codeland.entity.Baike;
-import com.redant.codeland.ui.GameNoteBookActivity;
 import com.redant.codeland.ui.fragment.BaikeFragment;
 import com.redant.codeland.util.CustomExpandListview;
-import com.yatoooon.screenadaptation.ScreenAdapterTools;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

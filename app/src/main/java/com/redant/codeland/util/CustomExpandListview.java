@@ -2,8 +2,8 @@ package com.redant.codeland.util;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.media.MediaPlayer;
-import android.support.v4.content.ContextCompat;
+
+import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;

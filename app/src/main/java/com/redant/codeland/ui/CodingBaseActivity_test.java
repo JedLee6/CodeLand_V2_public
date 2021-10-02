@@ -8,14 +8,12 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
-import android.webkit.JsPromptResult;
 import android.webkit.JsResult;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
@@ -32,11 +30,8 @@ import android.widget.Toast;
 
 import com.redant.codeland.R;
 import com.redant.codeland.adapter.CodingAdapter;
-import com.redant.codeland.adapter.RecordAdapter;
 import com.redant.codeland.entity.Coding;
 import com.redant.codeland.entity.LevelInfo;
-import com.redant.codeland.entity.SavingRecord;
-import com.redant.codeland.scratchgame.scratchgameui.ProgramActivity;
 import com.redant.codeland.util.InputDialog;
 import com.redant.codeland.util.Util;
 

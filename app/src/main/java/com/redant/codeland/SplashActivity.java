@@ -2,10 +2,8 @@ package com.redant.codeland;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.redant.codeland.app.MyApplication;
 
 public class SplashActivity extends AppCompatActivity {
 

@@ -80,7 +80,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:src="@mipmap/block_merge_2"
+            app:srcCompat="@mipmap/block_merge_2"
             android:scaleType="fitStart"
             android:layout_centerVertical="true"
             android:layout_margin="20dp"/>

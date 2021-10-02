@@ -13,7 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 
-public class MyImageView extends android.support.v7.widget.AppCompatImageView{
+public class MyImageView extends androidx.appcompat.widget.AppCompatImageView{
     public static final int GET_DATA_SUCCESS = 1;
     public static final int NETWORK_ERROR = 2;
     public static final int SERVER_ERROR = 3;

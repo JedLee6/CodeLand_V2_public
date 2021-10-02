@@ -69,7 +69,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="170dp"
-            android:src="@mipmap/block_merge_tadpole"
+            app:srcCompat="@mipmap/block_merge_tadpole"
             android:layout_centerVertical="true"
             android:layout_margin="20dp"/>
     </RelativeLayout>

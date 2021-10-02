@@ -3,8 +3,8 @@ package com.redant.codeland.scratchgame.fragment;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,7 +19,6 @@ import com.redant.codeland.R;
 import com.redant.codeland.entity.LevelInfo;
 import com.redant.codeland.scratchgame.ScratchJrActivity;
 import com.redant.codeland.ui.CodingBaseActivity_test;
-import com.redant.codeland.ui.CodingLearningActivity;
 import com.redant.codeland.ui.EnglishBlocklyActivity;
 import com.yatoooon.screenadaptation.ScreenAdapterTools;
 

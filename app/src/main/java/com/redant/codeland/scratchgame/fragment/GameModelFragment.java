@@ -1,11 +1,10 @@
 package com.redant.codeland.scratchgame.fragment;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,8 +15,6 @@ import android.widget.TextView;
 import com.redant.codeland.R;
 import com.redant.codeland.app.MyApplication;
 import com.redant.codeland.scratchgame.ScratchJrActivity;
-
-import static android.content.Context.MODE_PRIVATE;
 
 public class GameModelFragment extends Fragment implements View.OnClickListener {
 

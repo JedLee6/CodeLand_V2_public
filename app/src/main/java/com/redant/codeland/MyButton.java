@@ -1,13 +1,11 @@
 package com.redant.codeland;
 
 import android.content.Context;
-import android.media.MediaPlayer;
 import android.util.AttributeSet;
-import android.widget.Button;
 
 import com.redant.codeland.app.MyApplication;
 
-import android.support.v7.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatButton;
 
 public class MyButton extends AppCompatButton {
     //private final MediaPlayer mediaPlayer=MediaPlayer.create(getContext(), R.raw.loginmusic);

@@ -3,27 +3,22 @@ package com.redant.codeland.scratchgame;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.redant.codeland.R;
 import com.redant.codeland.scratchgame.fragment.AnimationModelFragment;
 import com.redant.codeland.scratchgame.fragment.GameModelFragment;
 import com.redant.codeland.scratchgame.fragment.LevelFragment;
-import com.redant.codeland.scratchgame.fragment.ModelFragment;
 import com.redant.codeland.scratchgame.fragment.NotebookFragment;
-import com.redant.codeland.scratchgame.fragment.TestFragment;
-import com.redant.codeland.scratchgame.fragment.TestTwoFragment;
 import com.yatoooon.screenadaptation.ScreenAdapterTools;
 
 public class HubActivity extends FragmentActivity implements View.OnClickListener {

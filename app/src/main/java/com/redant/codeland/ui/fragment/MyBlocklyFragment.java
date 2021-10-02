@@ -1,6 +1,6 @@
 package com.redant.codeland.ui.fragment;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.google.blockly.android.AbstractBlocklyFragment;
 import com.google.blockly.android.codegen.CodeGenerationRequest;

@@ -15,12 +15,9 @@
  */
 package com.google.blockly.android.webview;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Message;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -31,6 +28,10 @@ import android.webkit.JsResult;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.blocklywebview.R;
 
@@ -158,6 +159,6 @@ public class JsDialogHelper {
     }
 
     private static boolean canShowAlertDialog(Context context) {
-        return context instanceof Activity;
+        return context instanceof AppCompatActivity;
     }
 }

@@ -1,7 +1,7 @@
 package com.redant.codeland.scratchgame.scratchgameui;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,9 +13,7 @@ import android.widget.TextView;
 
 import com.redant.codeland.R;
 import com.redant.codeland.app.MyApplication;
-import com.redant.codeland.scratchgame.ScratchJrActivity;
 import com.redant.codeland.ui.BaseLevelActivity;
-import com.redant.codeland.ui.GameBaseActivity;
 import com.redant.codeland.ui.GameNoteBookActivity;
 import com.yatoooon.screenadaptation.ScreenAdapterTools;
 

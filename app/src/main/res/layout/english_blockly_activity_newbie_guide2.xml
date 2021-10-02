@@ -26,7 +26,7 @@
                     android:id="@+id/image_view_enlgish_blockly_zoom"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@mipmap/block_zoom"/>
+                    app:srcCompat="@mipmap/block_zoom"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="0dp"
@@ -41,7 +41,7 @@
                     android:id="@+id/image_view_enlgish_blockly_zoom2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@mipmap/block_zoom2"/>
+                    app:srcCompat="@mipmap/block_zoom2"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout

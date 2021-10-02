@@ -3,8 +3,6 @@ package com.redant.codeland.scratchgame;
 import android.Manifest;
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -16,9 +14,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.Base64;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -39,6 +34,12 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import com.redant.codeland.R;
 import com.redant.codeland.app.MyApplication;
 import com.redant.codeland.ui.KnowledgeLearningActivity;
@@ -58,7 +59,7 @@ import java.io.InputStream;
  *
  * @author markroth8
  */
-public class ScratchJrActivity extends Activity
+public class ScratchJrActivity extends AppCompatActivity
 {
     /** Milliseconds to pan when showing the soft keyboard */
     private static final int SOFT_KEYBOARD_PAN_MS = 250;

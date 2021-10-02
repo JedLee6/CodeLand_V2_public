@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +19,7 @@
         android:id="@+id/plane_module3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@mipmap/plane"
+        app:srcCompat="@mipmap/plane"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         />
@@ -27,7 +28,7 @@
         android:id="@+id/rocket_module"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@mipmap/rocket"
+        app:srcCompat="@mipmap/rocket"
         android:layout_gravity="bottom"
         android:layout_margin="20dp"
         />
@@ -35,7 +36,7 @@
         android:id="@+id/satellite_module"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@mipmap/satellite"
+        app:srcCompat="@mipmap/satellite"
         android:layout_gravity="right|center_vertical"
         android:layout_margin="40dp"
         />
@@ -72,7 +73,7 @@
             android:id="@+id/image_coding_ide"
             android:layout_width="100dp"
             android:layout_height="130dp"
-            android:src="@mipmap/coding_ide"
+            app:srcCompat="@mipmap/coding_ide"
             android:background="@drawable/module_fillet_purple"
             android:layout_marginLeft="5dp"
             />

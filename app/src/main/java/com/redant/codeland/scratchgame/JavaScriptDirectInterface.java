@@ -1,6 +1,7 @@
 package com.redant.codeland.scratchgame;
 
-import android.app.AlertDialog;
+import static android.content.Context.MODE_PRIVATE;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,7 +11,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.RectF;
 import android.hardware.Camera;
 import android.net.Uri;
-import android.os.Bundle;
 import android.text.Html;
 import android.util.Base64;
 import android.util.Log;
@@ -25,18 +25,10 @@ import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+
 import com.redant.codeland.BuildConfig;
 import com.redant.codeland.entity.LevelInfo;
-import com.redant.codeland.scratchgame.CameraExif;
-import com.redant.codeland.scratchgame.CameraView;
-import com.redant.codeland.scratchgame.DatabaseException;
-import com.redant.codeland.scratchgame.DatabaseManager;
-import com.redant.codeland.scratchgame.IOManager;
-import com.redant.codeland.scratchgame.ScratchJrActivity;
-import com.redant.codeland.scratchgame.ScratchJrUtil;
-import com.redant.codeland.scratchgame.ShareContentProvider;
-import com.redant.codeland.scratchgame.SoundManager;
-import com.redant.codeland.scratchgame.SoundRecorderManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -51,8 +43,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 import java.util.Locale;
-
-import static android.content.Context.MODE_PRIVATE;
 
 public class JavaScriptDirectInterface {
     private static final String LOG_TAG = "ScratchJr.JSDirect";
