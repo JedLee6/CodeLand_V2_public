@@ -95,9 +95,6 @@
             android:name=".ui.TurtleActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".ui.TadpoleBlocklyActivity"
-            android:screenOrientation="landscape" />
-        <activity
             android:name=".ui.CodingBlocklyActivity"
             android:screenOrientation="landscape" />
         <activity
@@ -112,12 +109,10 @@
             android:name=".ui.CodingLearningActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".ui.BoxBlocklyActivity"
-            android:screenOrientation="landscape" />
-        <activity
             android:name=".SplashActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/Splash">
+            android:theme="@style/Splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -133,7 +128,8 @@
         <activity
             android:name=".scratchgame.ScratchJrActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -143,7 +139,8 @@
 
         <receiver
             android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
             </intent-filter>
@@ -172,10 +169,6 @@
             android:theme="@style/AppTheme.NoActionBarAndTitle" />
         <activity
             android:name=".scratchgame.scratchanimation.ScratchAnimationGuideActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle" />
-        <activity
-            android:name=".ui.AnimationNoteBookActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBarAndTitle" />
         <activity
