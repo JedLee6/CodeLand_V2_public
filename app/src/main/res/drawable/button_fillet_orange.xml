@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/buttonOrange"/>
+    <corners android:radius="30dp"/>
+    <!--stroke边界线是实线而不是虚线的话，这样写-->
+    <stroke
+        android:width="0dp"
+        android:color="#ffffff" />
+
+</shape>

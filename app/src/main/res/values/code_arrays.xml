@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="code_group_title">
+        <item>编程学习</item>
+        <item>代码学习</item>
+    </array>
+</resources>

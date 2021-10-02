@@ -1,0 +1,23 @@
+one
+two three
+five four six
+seven eight nine ten
+apple banana cherry lemon
+peach pear pineapple strawberry
+grape kiwi mango orange watermelon
+pepper potato pumpkin tomato
+bean cabbage carrot cucumber salad
+eggplant lettuce mushroom onion pea
+bear bird camel
+chick cow deer
+dog elephant fox
+frog goat horse kangaroo
+lion monkey mouse panda
+pig rabbit snake squirrel
+duck tiger wolf zebra
+act blow crawl walk
+cry jump eat laugh
+fold pull push write
+dive hike skate swim
+cut dance draw listen sing
+drink kick read ride run

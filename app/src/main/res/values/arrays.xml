@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="baike_group_title">
+        <item>积木</item>
+        <item>迷宫</item>
+        <item>古诗</item>
+        <item>三字经</item>
+        <item>名人事迹</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+积木介绍-第一课>file:///android_asset/scratchhtml/guide/html/1.html
+积木介绍-第二课>file:///android_asset/scratchhtml/guide/html/2.html
+积木介绍-第三课>file:///android_asset/scratchhtml/guide/html/3.html
+积木介绍-第四课>file:///android_asset/scratchhtml/guide/html/4.html
+积木介绍-第五课>file:///android_asset/scratchhtml/guide/html/5.html
+积木介绍-第六课>file:///android_asset/scratchhtml/guide/html/6.html
+积木介绍-第七课>file:///android_asset/scratchhtml/guide/html/7.html
+积木介绍-第八课>file:///android_asset/scratchhtml/guide/html/8.html
+积木介绍-第九课>file:///android_asset/scratchhtml/guide/html/9.html
+积木介绍-第十课>file:///android_asset/scratchhtml/guide/html/10.html
+积木介绍-第十一课>file:///android_asset/scratchhtml/guide/html/11.html
+积木介绍-第十二课>file:///android_asset/scratchhtml/guide/html/12.html

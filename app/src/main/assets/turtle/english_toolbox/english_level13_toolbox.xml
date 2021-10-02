@@ -1,0 +1,32 @@
+<toolbox>
+    <category name="Move" colour="160">
+    <block type="turtle_move_internal">
+        <field name="VALUE">100</field>
+        <field name="DIR">moveForward</field>
+    </block>
+    </category>
+    <category name="Turn" color="120">
+        <block type="turtle_turn_internal">
+            <field name="VALUE">90</field>
+        </block>
+    </category>
+    <category name="Brush" colour="120">
+        <block type="turtle_pen">
+            <field name="PEN">penUp</field>
+        </block>
+    </category>
+    <category name="Repeat" colour="120">
+        <block type="turtle_repeat_internal">
+            <field name="TIMES">4</field>
+        </block>
+    </category>
+    <category name="Colour" colour="160">
+        <block type="turtle_colour_internal">
+            <field name="COLOUR">#ff0000</field>
+        </block>
+        <block type="turtle_colour_internal">
+            <field name="COLOUR">#000000</field>
+        </block>
+    </category>
+
+</toolbox>

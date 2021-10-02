@@ -1,0 +1,82 @@
+[
+  {
+    "type": "celebrity",
+    "message0": "名人姓名、朝代： %1 相关事迹： %2",
+        "args0": [
+          {
+            "type": "input_value",
+    "name": "TITLE"
+  },
+  {
+    "type": "input_statement",
+    "name": "CONTENT"
+  }
+],
+"colour": 300,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "celebrity_title",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "TITLE",
+        "text": "default"
+      }
+    ],
+    "output": "String",
+    "colour": 15,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "celebrity_contents",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "CONTENT",
+        "text": ""
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 150,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "celebrity_first",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "CONTENT",
+        "text": ""
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 150,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "celebrity_second",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "CONTENT",
+        "text": ""
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 150,
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]

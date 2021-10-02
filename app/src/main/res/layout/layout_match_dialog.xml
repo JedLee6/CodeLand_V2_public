@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@mipmap/dialog"
+        >
+        <!--<TextView-->
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="匹配结果"-->
+            <!--android:textSize="20dp" />-->
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <RatingBar
+                android:id="@+id/match_dialog_ratingbar"
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:numStars="3"
+                android:stepSize="1"
+                android:theme="@style/RatingBar"/>
+<TextView
+    android:id="@+id/textview_console"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="控制台"
+    android:textSize="20dp"
+    android:visibility="gone"/>
+            <TextView
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:maxLines="5"
+                android:gravity="center"
+                android:id="@+id/match_dialog_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/text_bg"
+                android:text="test"
+                android:textColor="@android:color/white"/>
+            <LinearLayout
+                android:id="@+id/dialog_button_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:id="@+id/match_dialog_btn_quit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/common_button_bg"
+                    android:text="@string/done"
+                    android:textColor="@android:color/white" />
+                <Button
+                    android:id="@+id/match_dialog_btn_check"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/common_button_bg"
+                    android:text="@string/again"
+                    android:textColor="@android:color/white" />
+                <Button
+                    android:id="@+id/match_dialog_btn_next"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/common_button_bg"
+                    android:text="@string/next"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>

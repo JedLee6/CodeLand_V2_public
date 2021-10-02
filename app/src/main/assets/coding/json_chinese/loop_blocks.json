@@ -1,0 +1,146 @@
+[
+  {
+    "type": "controls_repeat_ext",
+    "message0": "重复 %1 次 %2 执行 %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "TIMES"
+      },
+      {
+        "type": "input_dummy"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "inputsInline": true,
+    "tooltip": "Do some statements several times.",
+    "helpUrl": "https://en.wikipedia.org/wiki/For_loop"
+  },
+  {
+    "type": "controls_whileUntil",
+    "message0": " %1 条件为 %2 重复执行 %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          [
+            "如果",
+            "WHILE"
+          ],
+          [
+            "直到",
+            "UNTIL"
+          ]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "BOOL",
+        "check": "Boolean"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "tooltip": "While a value is false, then do some statements.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Loops#repeat"
+  },
+  {
+    "type": "controls_for",
+    "message0": "计数 %1 从 %2 到 %3 每次计数加 %4 每次执行 %5",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "VAR",
+        "variable": null
+      },
+      {
+        "type": "input_value",
+        "name": "FROM",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "TO",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_value",
+        "name": "BY",
+        "check": "Number",
+        "align": "RIGHT"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "helpUrl": "https://github.com/google/blockly/wiki/Loops#count-with"
+  },
+  {
+    "type": "controls_forEach",
+    "message0": "每一个 %1 在数组 %2 执行 %3",
+    "args0": [
+      {
+        "type": "field_variable",
+        "name": "VAR",
+        "variable": null
+      },
+      {
+        "type": "input_value",
+        "name": "LIST",
+        "check": "Array"
+      },
+      {
+        "type": "input_statement",
+        "name": "DO"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "helpUrl": "https://github.com/google/blockly/wiki/Loops#for-each"
+  },
+  {
+    "type": "controls_flow_statements",
+    "message0": "执行 %1 循环操作",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "FLOW",
+        "options": [
+          [
+            "跳出",
+            "BREAK"
+          ],
+          [
+            "跳过本次，执行下一次",
+            "CONTINUE"
+          ]
+        ]
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 120,
+    "helpUrl": "https://github.com/google/blockly/wiki/Loops#loop-termination-blocks",
+    "TODO(#375)": "https://github.com/google/blockly-android/issues/375"
+  }
+]

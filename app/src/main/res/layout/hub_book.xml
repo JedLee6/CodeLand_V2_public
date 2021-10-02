@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bookBackground"
+    android:padding="1dp"
+    android:layout_margin="7dp"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.redant.codeland.util.CustomExpandListview
+            android:id="@+id/enlighten_listview"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        </com.redant.codeland.util.CustomExpandListview>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/enlighten_container"/>
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@mipmap/icon_back"-->
+        <!--android:id="@+id/button_back_enlighten_list"/>-->
+
+</FrameLayout>

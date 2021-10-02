@@ -1,0 +1,61 @@
+
+
+body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:913px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+font-family:'spellfont';
+}
+#base {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 3%;
+    background-color: beige;
+    width: 80%;
+    padding: 3%;
+}
+#base > table{
+  display: block;
+  text-align: center;
+}
+#base > table > tbody > tr>th>img{
+  /* margin-right: 1em; */
+  width: 100%;
+  height: 100%;
+}
+
+.title{
+    display: inline-block;
+   
+    border-radius: 10px;
+}
+#base > table > tbody{
+  display: block;
+  text-align: center;
+}
+
+#base > table > tbody > tr>th{
+  /* width: 78%; */
+  /* height: 180px; */
+}
+
+#base > div> table{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+#base > div{
+  word-wrap: break-word;
+}
+#base > div> table > tbody > tr > th{
+  width: 50%;
+}
+
+img{
+  width: 90%;
+}

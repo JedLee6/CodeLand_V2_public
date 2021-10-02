@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/background_module2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_module2"/>
+
+    <ImageView
+        android:id="@+id/jellyfish_module2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/jellyfish"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/octopus_module2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/octopus"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        />
+    <ImageView
+        android:id="@+id/dolphin_module2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/dolphin"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="40dp"
+        />
+
+    <HorizontalScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        >
+        <!--android:fadingEdge="none"用不了-->
+        <!--android:overScrollMode="never"可以用-->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_horizonalscrollview_game_base_1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@mipmap/icon_back"
+        android:id="@+id/button_back_game_base"/>
+
+
+</FrameLayout>

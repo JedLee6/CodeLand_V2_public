@@ -1,0 +1,28 @@
+1>1>Use 1 "print" block to print the text "Hello World".
+1>2>Use 2 "print" blocks to print the text "How are you" and "Fine".
+1>3>Use 3 "print" blocks to print the text "Hello everyone", "I'm a Code Land", "Little programmer".
+2>1>Output the number 666.
+2>2>Output the result of "1234+5678" .
+2>3>Output the result of the square root of 16.
+2>4>Output a cosine of 60 degrees.
+2>5>Output 31 divided by 4.
+3>1>Create a new variable, set this variable to 666, and finally output its value.
+3>2>Create a new variable, set this variable to 527, increase its value by 1314, and finally output its value.
+3>3>Create two new variables, set two variables to 123, 456, and output the multiplied values.
+3>4>Create two new variables, set two variables to 78 and 910 respectively, and output the added values and multiplied values respectively.
+3>5>Create three new variables, set the three variables to 12, 34, 56, and output the values after they are all multiplied.
+4>1>Output "Success" if the condition is true.
+4>2>Output "Success" if the condition is true; "Fail" if it is false.
+4>3>With "3 <= 2" as the judgment condition, the true output is "Success", and the false output is "Fail".
+4>4>With "2 < 4 and 3 > 1" as the judgment condition, the true output is "Success", and the false output is "Fail".
+4>5>With "3 <= 2 or 5 > 4" as the judgment condition, the output is "Success" for true, and "Fail" for false output.
+5>1>Repeatedly output "hello" twice.
+5>2>The value of the loop output variable, from "2" to "5".
+5>3>Output prime numbers from "1" to "10".
+5>4>Output a number between "1" and "50", and stop the output when the first number divisible by 13 is found.
+5>5>Output all the even numbers within 3 "1" to "6".
+6>1>Create an array with 5 children, each with a value of 20, output this array.
+6>2>Create an array with 3 children and set the three sub-items to 12, 34, 56 in order from the beginning to the end, and output the array.
+6>3>Create an array of 3 children and set the three children to 34, 56, and 12 in order from the beginning to the end. Output: Sort the value of this array in ascending order by number size.
+6>4>Create an array of 3 children and set the three children to 56, 78, and 910 in order from the beginning to the end. Output: Find the first occurrence of the number 78 in the array.
+6>5>Create an array of 4 children, and set the three sub-items to 5, 6, 7, and 8 in order from the beginning to the end. Output: From the array, get the Subarray from the 0th positive number to the 2nd in the positive number.

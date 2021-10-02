@@ -1,0 +1,12 @@
+<toolbox>
+    <category name="Move" colour="160">
+        <block type="turtle_move_internal">
+            <field name="VALUE">100</field>
+            <field name="DIR">moveBackward</field>
+        </block>
+        <block type="turtle_move_internal">
+            <field name="VALUE">100</field>
+            <field name="DIR">moveForward</field>
+        </block>
+    </category>
+</toolbox>

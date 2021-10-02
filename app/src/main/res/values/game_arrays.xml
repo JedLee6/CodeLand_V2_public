@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="game_group_title">
+        <item>积木教程</item>
+        <item>动画制作</item>
+        <item>游戏制作</item>
+    </array>
+</resources>

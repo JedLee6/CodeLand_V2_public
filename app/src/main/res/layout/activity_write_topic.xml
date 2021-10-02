@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmob.WriteTopicActivity"
+    android:orientation="vertical">
+    <include layout="@layout/record_event"
+        android:visibility="gone"
+        android:id="@+id/record_layout" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_write_topic_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="发送帖子的提示性标题"
+            android:gravity="center"
+            android:background="#F0E1D0"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主题"
+                android:textSize="20dp"/>
+        <EditText
+                android:id="@+id/edit_text_write_topic_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="在这里输入"
+                android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="项目介绍"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edit_text_write_topic_content"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="在这里输入"
+            android:inputType="textMultiLine"
+            android:gravity="left|top"
+            android:minLines="6"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_button"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加图片"/>
+            <Button
+                android:id="@+id/add_code"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加代码"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/add_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/post_topic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|right"
+        android:background="@mipmap/write_topic"
+        android:layout_margin="10dp"/>
+</LinearLayout>

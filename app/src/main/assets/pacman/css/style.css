@@ -1,0 +1,53 @@
+.bg{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.game {
+    /*width: 500px;*/
+    /*height: 500px;*/
+    background-color: transparent;
+    position: absolute;
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*border: 1px solid white;*/
+}
+
+/*
+block : 墙壁，不能走的区域
+start : 起点
+end :   终点
+path :  通道，可以走的区域
+current_*: 小蝌蚪当前的位置,up表示方向朝上，right表示方向朝右，down表示方向朝下，left表示方向朝左
+*/
+.block,.bean, .end, .path, .current, .success {
+    /*width: 50px;*/
+    /*height: 50px;*/
+    position: absolute;
+    box-sizing: border-box;
+    /*background-size: 50px 50px;*/
+}
+
+.bean{
+    background-image: url(../img/bean.png);
+}
+
+.block {
+    background-image: url(../img/lotus_leaf.png);
+    /*background-color: midnightblue;*/    
+}
+
+.path{
+}
+
+
+
+.end {
+    background-image: url(../img/frog.png);
+    /*background-color: brown;*/
+}
+
+.success {
+    background-image: url(../img/water.png);
+}
+

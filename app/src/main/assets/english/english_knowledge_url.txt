@@ -1,0 +1,23 @@
+英语单词-数字1>file:///android_asset/englishhtml/english_1.html
+英语单词-数字2-3>file:///android_asset/englishhtml/english_2.html
+英语单词-数字4-6>file:///android_asset/englishhtml/english_3.html
+英语单词-数字7-10>file:///android_asset/englishhtml/english_4.html
+英语单词-水果-第1篇>file:///android_asset/englishhtml/english_5.html
+英语单词-水果-第2篇>file:///android_asset/englishhtml/english_6.html
+英语单词-表情篇>file:///android_asset/englishhtml/expression.html
+英语单词-食物篇>file:///android_asset/englishhtml/food.html
+英语单词-食物篇2>file:///android_asset/englishhtml/food2.html
+英语单词-水果篇>file:///android_asset/englishhtml/fruit.html
+英语单词-家具篇>file:///android_asset/englishhtml/furniture.html
+英语单词-家具篇2>file:///android_asset/englishhtml/furniture2.html
+英语单词-假日篇>file:///android_asset/englishhtml/holiday.html
+英语单词-月份篇>file:///android_asset/englishhtml/month.html
+英语单词-自然世界篇>file:///android_asset/englishhtml/nature.html
+英语单词-数字篇>file:///android_asset/englishhtml/number.html
+英语单词-地点篇>file:///android_asset/englishhtml /place.html
+英语单词-工作职业篇>file:///android_asset/englishhtml/profession.html
+英语单词-物品篇>file:///android_asset/englishhtml/stuff.html
+英语单词-玩具篇>file:///android_asset/englishhtml/toy.html
+英语单词-交通篇>file:///android_asset/englishhtml/transportation.html
+英语单词-交通工具篇>file:///android_asset/englishhtml/vehicle.html
+英语单词-交通工具篇>file:///android_asset/englishhtml/vehicle.html

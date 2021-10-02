@@ -1,0 +1,186 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+.farSide {
+  text-align: right;
+}
+
+html[dir="RTL"] .farSide {
+  text-align: left;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: large;
+  background-color: #eee;
+  color: #000;
+}
+button.primary {
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 200;
+  background-color: #cfcfcf;
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  /*right: 30px;
+  bottom: 90px;
+  z-index: 200;
+  border: 1px solid #cfcfcf;
+  background-color: #cfcfcf;
+  color: #fff;*/
+}
+button.primary>img {
+  opacity: 1;
+}
+button>img {
+  opacity: 0.6;
+  vertical-align: text-bottom;
+}
+button:hover>img {
+  opacity: 1;
+}
+button:active {
+  border: 1px solid #888 !important;
+}
+button:hover {
+  box-shadow: 2px 2px 5px #888;
+}
+button.disabled:hover>img {
+  opacity: 0.6;
+}
+button.disabled {
+  display: none;
+}
+button.notext {
+  font-size: 10%;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 140%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Tabs */
+#tabRow>td {
+  border: 0;
+  border-bottom: none;
+}
+td.tabon {
+  border-bottom-color: #ddd !important;
+  /*background-color: #ddd;*/
+  padding: 5px 19px;
+  height: 30px;
+  background-image: url(coding_button.png);
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+td.taboff {
+  cursor: pointer;
+  padding: 5px 19px;
+  background-image: url(coding_button.png);
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+td.taboff:hover {
+  background-color: #eee;
+}
+td.tabmin {
+  border-top-style: none !important;
+  border-left-style: none !important;
+  border-right-style: none !important;
+}
+td.tabmax {
+  border-top-style: none !important;
+  border-left-style: none !important;
+  border-right-style: none !important;
+  width: 99%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+html[dir=rtl] td.tabmax {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+td {
+  padding: 0;
+  vertical-align: top;
+}
+.content {
+  visibility: hidden;
+  margin: 0;
+  padding: 1ex;
+  position: absolute;
+  direction: ltr;
+}
+pre.content {
+  border: 1px solid #ccc;
+  overflow: scroll;
+}
+#content_blocks {
+  padding: 0;
+}
+.blocklySvg {
+  background-image: url(bg.jpg);
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+  filter: opacity(55%);
+  border-top: none !important;
+}
+#content_xml {
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  overflow: scroll;
+}
+#languageMenu {
+  vertical-align: top;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+
+
+/* Buttons */
+button {
+  padding: 1px 10px;
+  margin: 1px 5px;
+  border: none;
+}
+
+/* Sprited icons. */
+.icon21 {
+  height: 24px;
+  width: 24px;
+  background-image: url(icons.png);
+}
+.run {
+  background-size: 40px;
+  background-position: -8px -8px;
+}

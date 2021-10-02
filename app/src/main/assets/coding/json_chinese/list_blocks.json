@@ -1,0 +1,245 @@
+[
+  {
+    "type": "lists_create_empty",
+    "message0": "创建一个空数组",
+    "output": "Array",
+    "colour": 260,
+    "tooltip": "Returns a list, of length 0, containing no data records.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#create-empty-list"
+  },
+  {
+    "type": "lists_repeat",
+    "message0": "创建一个有 %2 个子项，每个子项数值为 %1 的数组",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ITEM"
+      },
+      {
+        "type": "input_value",
+        "name": "NUM",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Array",
+    "colour": 260,
+    "tooltip": "Creates a list consisting of the given value repeated the specified number of times.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#create-list-with"
+  },
+  {
+    "type": "lists_length",
+    "message0": "数组的长度 %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": ['String', 'Array']
+      }
+    ],
+    "output": 'Number',
+    "colour": 260,
+    "tooltip": "Returns the length of a list.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#length-of"
+  },
+  {
+    "type": "lists_isEmpty",
+    "message0": "%1 是否为空的",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": ['String', 'Array']
+      }
+    ],
+    "output": 'Boolean',
+    "inputsInline": true,
+    "colour": 260,
+    "tooltip": "Returns true if the list is empty.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#is-empty"
+  },
+  {
+    "type": "lists_indexOf",
+    "message0": "在数组 %1 中查找 %2 出现 %3的位置",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Array"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "END",
+        "options": [
+          ["第一次", "FIRST"],
+          ["最后一次", "LAST"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "FIND"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Number",
+    "colour": 260,
+    "tooltip": "Returns the index of the first/last occurrence of the item in the list. Returns -1 if item is not found.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list",
+    "TODO(#379)": "https://github.com/google/blockly-android/issues/379"
+  },
+  {
+    "type": "lists_getIndex",
+    "message0": "在数组 %1 中按照 %3 的顺序 %2 第 %4 个子项",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "VALUE",
+        "check": "Array"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          ["获取", "GET"],
+          ["找到并移除", "GET_REMOVE"]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "WHERE",
+        "options": [
+          ["从开头到结尾", "FROM_START"],
+          ["从结尾到开头", "FROM_END"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "AT",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": null,
+    "colour": 260,
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list",
+    "TODO(#380)": "https://github.com/google/blockly-android/issues/380",
+    "TODO(#381)": "https://github.com/google/blockly-android/issues/381",
+    "TODO(#383)": "https://github.com/google/blockly-android/issues/383"
+  },
+  {
+    "type": "lists_setIndex",
+    "message0": "在数组 %1 中按照 %3 的顺序 %2 第 %4 个子项为 %5",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "LIST",
+        "check": "Array"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "MODE",
+        "options": [
+          ["设置", "SET"],
+          ["插入","INSERT"]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "WHERE",
+        "options": [
+          ["从开头到结尾", "FROM_START"],
+          ["从结尾到开头","FROM_END"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "AT",
+        "check": "Number"
+      },
+      {
+        "type": "input_value",
+        "name": "TO"
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 260,
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#getting-a-sublist",
+    "TODO(#381)": "https://github.com/google/blockly-android/issues/381",
+    "TODO(#383)": "https://github.com/google/blockly-android/issues/383"
+  },
+  {
+    "type": "lists_getSublist",
+    "message0": "从数组 %1 中得到从 %2 第 %3 个 到 %4 第 %5 个的子数组",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "LIST",
+        "check": "Array"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "WHERE1",
+        "options": [
+          ["正数", "FROM_START"],
+          ["倒数","FROM_END"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "AT1",
+        "check": "Number"
+      },
+      {
+        "type": "field_dropdown",
+        "name": "WHERE2",
+        "options": [
+          ["正数", "FROM_START"],
+          ["倒数", "FROM_END"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "AT2",
+        "check": "Number"
+      }
+    ],
+    "inputsInline": true,
+    "output": "Array",
+    "colour": 260,
+    "tooltip": "Creates a copy of the specified portion of a list."
+  },
+  {
+    "type": "lists_sort",
+    "message0": "通过 %1 以 %2 的方式排序 %3",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "TYPE",
+        "options": [
+          ["数字大小","NUMERIC"],
+          ["字母表a到z的顺序", "TEXT"],
+          ["忽略大小写的字母表顺序", "IGNORE_CASE"]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "DIRECTION",
+        "options": [
+          ["升序", "1"],
+          ["降序", "-1"]
+        ]
+      },
+      {
+        "type": "input_value",
+        "name": "LIST",
+        "check": "Array"
+      }
+    ],
+    "output": "Array",
+    "colour": 260,
+    "tooltip": "Sort a copy of a list.",
+    "helpUrl": "https://github.com/google/blockly/wiki/Lists#sorting-a-list"
+  }
+]

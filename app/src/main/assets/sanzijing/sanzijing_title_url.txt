@@ -1,0 +1,15 @@
+1.人之初 性本善 >file:///android_asset/sanzijinghtml/renzhichu.html
+2.昔孟母 择邻处 >file:///android_asset/sanzijinghtml/ximengmu.html
+3.养不教 父之过 >file:///android_asset/sanzijinghtml/yangbujiao.html
+4.玉不琢 不成器 >file:///android_asset/sanzijinghtml/yubuzhuo.html
+5.香九龄 能温席 >file:///android_asset/sanzijinghtml/xiangjiuling.html
+6.首孝悌 次见闻 >file:///android_asset/sanzijinghtml/shouxiaoti.html
+7.三才者 天地人 >file:///android_asset/sanzijinghtml/sancaizhe.html
+8.曰春夏 曰秋冬  >file:///android_asset/sanzijinghtml/yuechunxia.html
+9.曰水火 木金土  >file:///android_asset/sanzijinghtml/yueshuihuo.html
+10.曰黄道 日所躔  >file:///android_asset/sanzijinghtml/yuehuangdao.html
+11.寒燠均 霜露改  >file:///android_asset/sanzijinghtml/hanyujun.html
+12.曰岱华 蒿恒衡  >file:///android_asset/sanzijinghtml/yuedaihua.html
+13.曰士农 曰工商  >file:///android_asset/sanzijinghtml/yueshinong.html
+14.地所生 有草木  >file:///android_asset/sanzijinghtml/disuosheng.html
+15.稻梁菽 麦黍稷  >file:///android_asset/sanzijinghtml/daoliangshu.html

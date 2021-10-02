@@ -1,0 +1,173 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    //为了避免flavor 不同产生误差的问题，应该在所有的库模块都使用同一个foo尺寸。
+    //版本名后面添加一句话，意思就是flavor dimension 它的维度就是该版本号，这样维度就是都是统一的了
+    //flavorDimensions "versionCode"
+    //多渠道打包：假定我们需要打包的渠道为酷安市场、360、小米、百度、豌豆荚
+//    productFlavors {
+//        google {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "google"]
+//        }
+//        yingyongbao {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyongbao"]
+//        }
+//        baidu {
+//            //百度手机助手、91助手 和安卓市场是联盟平台
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+//        }
+//        qihoo360 {
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "qihoo360"]
+//        }
+//        alibaba {
+//            //阿里应用分发 整合了 豌豆荚、阿里九游、PP助手、UC应用商店、神马搜索
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "alibaba"]
+//        }
+//        xiaomi{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+//        }
+//        vivo{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "vivo"]
+//        }
+//        oppo{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "oppo"]
+//        }
+//        samsung{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "samsung"]
+//        }
+//        lenovo{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "lenovo"]
+//        }
+//        huawei{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "huawei"]
+//        }
+//        meizu{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "meizu"]
+//        }
+//        jinli{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "jinli"]
+//        }
+//    }
+
+    //A3.X版本及以上的自定义打包时apk名称代码
+//    applicationVariants.all { variant ->
+//        variant.outputs.all { output ->// each 改为 all
+//            //就这一句话是重点：批量签名后输出的APK的名字由 CodeLand_versionNameproductFlavors[0].name.apk 构成
+//            def fileName = "CodeLand_${variant.versionName}_${variant.productFlavors[0].name}.apk"
+//            def outFile = output.outputFile
+//            if (outFile != null && outFile.name.endsWith('.apk')) {
+//                outputFileName = fileName // output.outputFile 改为 outputFileName
+//            }
+//        }
+//    }
+
+    compileSdkVersion 28
+    defaultConfig {
+        /*
+        为什么applicationId 要写 "a.blocklyKidProgramming"
+        applicationId会决定该APP的包名前一部分
+        目前包名是 a.blocklyKidProgramming.debug201806102209
+        APP所存取的litpal数据,SharedPreferences数据都存在 根目录/data/data/包名/ 里面
+        如果我们写了 a.那么按照a-z排序 我们就会在前面，这样调试文件方便
+        */
+        //当applicationId不存在时，applicationId将默认为packageName。
+        //当applicationId存在时，packageName仅有其本身的功能，而applicationId将作为唯一标示。
+
+        //"1.0.3.202002111440_r"根据Google要求，将targetSdkVersion修改为28；删除冗杂权限
+        //"1.0.3.202002111440_r"根据腾讯应用宝的要求，为本应用加入了用户协议以及隐私条款的对话框提示
+        //"1.0.4.20200212126_r"根据腾讯应用宝的要求，完善了用户协议以及隐私条款
+        //"1.0.5.202002121723_r"根据腾讯应用宝的要求，完善了用户协议以及隐私条款，把确定改为我同意
+        applicationId "a.CodeLand2"
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 5
+        versionName "1.0.5.202002121723_r"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+    }
+
+    //防止AS签名APK出错
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            //是否开启混淆
+            minifyEnabled false
+            //在打包时需要设置为true，能优化我们的java字节码，提高运行效率
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //是否开启混淆
+            minifyEnabled false
+            testCoverageEnabled true
+
+            //设置id可以同时安装多个
+            applicationIdSuffix ".debug202002101847"
+            //安装第三个，第四个就随便改"InNetPackage"为"InNetPackage1"和"InNetPackage2"只要名字不重复即可安装多个
+
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.+'
+    implementation 'com.android.support:recyclerview-v7:28.+'
+    implementation 'com.android.support:support-v4:28.+'
+    implementation 'org.litepal.android:core:1.6.1'
+    testImplementation 'junit:junit:4.12'
+
+    //导入litepal本地数据库第三方库
+    implementation 'org.litepal.android:core:1.6.0'
+    implementation 'com.android.support:design:28.+'
+
+    //Google的Blockly官方的Blcokly第三方库
+    implementation 'com.google.blockly.android:blocklylib-vertical:0.9-beta.20171003'
+    //不清楚此第三方库的来源，Espresso是一种Android自动化测试框架，使测试人员可以在云中x86机器的多线程环境里运行测试，并解决了关于UI测试的并发问题。
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //NewbieGuide新手引导模板的第三方库
+    implementation 'com.github.huburt-Hu:NewbieGuide:v2.4.0'
+
+    //一个轻量的纸屑粒子效果
+    implementation 'nl.dionsegijn:konfetti:1.1.2'
+    //一个轻量的纸屑粒子效果中，如果项目是没有配置Kotlin的单纯的java项目，请加入以下代码
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51"
+
+    //第三方的一个轻量好用的安卓开发屏幕适配工具库
+    implementation 'me.yatoooon:screenadaptation:1.0.8'
+
+    //注意：统计SDK必须依赖基础组件库。所以需要加入对应依赖:
+    implementation 'com.umeng.sdk:common:1.5.3'
+    //友盟SDK导入，为移动开发者提供专业的数据统计分析、开发和运营组件及推广服务
+    implementation 'com.umeng.sdk:analytics:7.5.3'
+
+    //ScratchJr中特有的
+    implementation 'com.google.android.gms:play-services-analytics:16.0.4'
+
+    //以下SDK开发者请根据需要自行选择
+    //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
+    //3.5.5：请务必查看下面注释[1]
+    implementation 'cn.bmob.android:bmob-sdk:3.6.3'
+
+    //bmob-push：Bmob的推送包
+    implementation 'cn.bmob.android:bmob-push:0.8'
+
+    //bmob-im：Bmob的即时通讯包，注意每个版本的im依赖特定版本的bmob-sdk，具体的依赖关系可查看下面注释[2]
+    implementation 'cn.bmob.android:bmob-im:2.1.0@aar'
+
+    //如果你想应用能够兼容Android6.0，请添加此依赖(org.apache.http.legacy.jar)
+    implementation 'cn.bmob.android:http-legacy:1.0'
+
+}

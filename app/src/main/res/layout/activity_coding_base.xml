@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.redant.codeland.ui.EnlightenActivityNew"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_module3"
+        android:id="@+id/background_module3"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/plane_module3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/plane"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/rocket_module"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/rocket"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        />
+    <ImageView
+        android:id="@+id/satellite_module"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/satellite"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="40dp"
+        />
+
+
+
+    <HorizontalScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_marginLeft="100dp"
+        >
+        <!--android:fadingEdge="none"用不了-->
+        <!--android:overScrollMode="never"可以用-->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_horizonalscrollview_coding_base"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout_coding_ide"
+        android:layout_gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/image_coding_ide"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:src="@mipmap/coding_ide"
+            android:background="@drawable/module_fillet_purple"
+            android:layout_marginLeft="5dp"
+            />
+        <!--添加文字后莫名其妙图片变小，只能自动设置 宽高-->
+        <TextView
+            android:id="@+id/textview_knowledge_notebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_coding_ide"
+            android:layout_alignBottom="@id/image_coding_ide"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="@string/coding_code_land"
+            />
+
+    </RelativeLayout>
+
+    <com.redant.codeland.MyButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@mipmap/icon_back"
+        android:id="@+id/button_back_coding"/>
+
+</FrameLayout>

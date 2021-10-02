@@ -1,0 +1,2 @@
+飞机大战-第一课>file:///android_asset/scratchhtml/game/html/1.html
+老鼠偷金-第二课>file:///android_asset/scratchhtml/game/html/2.html

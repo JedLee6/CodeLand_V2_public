@@ -1,0 +1,35 @@
+[
+  {
+    "type": "trans_english",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "ENGLISH",
+        "text": "default"
+      }
+    ],
+    "output": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "trans_chinese",
+    "message0": "%1 %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "CHINESE",
+        "text": "default"
+      },
+      {
+        "type": "input_value",
+        "name": "INPUT_ENGLISH"
+      }
+    ],
+    "colour": 60,
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]

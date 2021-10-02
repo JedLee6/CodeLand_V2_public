@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/white"/>
+
+    <item>
+        <bitmap
+            android:scaleType="fitCenter"
+            android:gravity="fill"
+            android:src="@mipmap/splash_picture_2" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@mipmap/dialog"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_modul3_tip_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/icon_back"
+            android:layout_gravity="right"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/module3_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/module3_tip_dialog"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/button_modul3_tip_close"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/icon_close"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/module3_tip"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:padding="20dp"
+        android:maxLines="3"/>
+    <Button
+        android:id="@+id/button_module3_look_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_button_bg"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="@string/module3_tip_dialog_1"/>
+    <ImageView
+        android:id="@+id/image_module3_answer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/module3_answer_1_1"
+        android:visibility="gone"/>
+    </LinearLayout>

@@ -1,0 +1,137 @@
+
+
+body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:913px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 3%;
+    background-color: beige;
+    width: 80%;
+    padding: 3%;
+    font-family:  'spellfont';
+    box-shadow: 0px 0px 10px 1px #888888;
+}
+
+.title{
+    display: block;
+    border-radius: 10px;
+    /* width:  80%; */
+    margin:  auto;
+    text-align:  center;
+}
+
+#base > div> table{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+#base > div{
+    word-wrap: break-word;
+}
+
+#base > div.author > div > img{
+  display: inline;
+  width: 30%;
+  float:  left;
+}
+
+.poem{
+  text-align: center;
+  font-size:  16px;
+  font-weight: 800;
+  
+}
+h2{
+  font-size:  20px;
+  font-family: 'spellfont';
+}
+h4{
+  font-size: 17px;
+  font-family:  cursive;
+  font-weight: 1000;
+  margin-bottom: 5px;
+  margin-top:  5px;
+}
+
+#base > div.translation > p{
+  font-family: 'spellfont';
+}
+
+p.word {
+    font-size: 15px;
+    font-weight: 600;
+    display: inline;
+}
+
+p.exp {
+    display: inline;
+    font-size: 15px;
+}
+
+p{
+  font-size: 15px;
+}
+
+.translation{
+  font-family: 'spellfont';
+  border: solid 1px;
+  background-color: #fbd480;
+  border-color: #fbd480;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.explanation{
+  font-family: 'spellfont';
+  border: solid 1px;
+  border-color: #fbd480;
+  background-color: #fbd480;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.author{
+  font-family: 'spellfont';
+  border: solid 1px;
+  border-color: #fbd480;
+  border-radius: 4px;
+  margin-top: 10px;
+  background-color: #fbd480;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+}
+#content{
+  overflow: hidden;
+  display: block;
+}
+.createBg{
+  font-family: 'spellfont';
+  border: solid 1px;
+  border-color: #fbd480;
+  border-radius: 4px;
+  background-color: #fbd480;
+  margin-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+button{
+  background: #68b3f1;
+  border: 0;
+  color: white;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 3px;
+}

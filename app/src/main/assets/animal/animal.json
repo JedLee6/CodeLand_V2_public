@@ -1,0 +1,83 @@
+[
+  {
+    "type": "animal",
+    "message0": "动物名字 %1 食物 %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "aName"
+      },
+      {
+        "type": "input_value",
+        "name": "eating"
+      }
+    ],
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "animal_name",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "ANAME",
+        "text": "default"
+      }
+    ],
+    "output": "String",
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "animal_eating",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "AEATING",
+        "text": "default"
+      }
+    ],
+    "output": "String",
+    "colour": 270,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "animal_kind",
+    "message0": "%1 \n %2",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "KIND",
+        "text": "default"
+      },
+      {
+        "type": "input_statement",
+        "name": "INCLUDE"
+      }
+    ],
+    "colour": 90,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "animal_instance",
+    "message0": "%1",
+    "args0": [
+      {
+        "type": "field_input",
+        "name": "INSTANCE",
+        "text": ""
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]

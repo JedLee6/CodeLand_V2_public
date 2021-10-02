@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".scratchgame.ScratchJrActivity" >
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+       />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="1dp"
+        android:background="@mipmap/icon_back"
+        android:id="@+id/button_back_scratch_game"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        >
+        <Button
+            android:id="@+id/button_task_scratch_game_task"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/icon_bulb"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/button_task_scratch_game_guide"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/icon_help"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/button_task_scratch_game_check"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@mipmap/icon_run"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+
+</RelativeLayout> 

@@ -1,0 +1,52 @@
+{
+    "path":"./svglibrary/",
+    "samples": [
+    	"samples/Underthesea.txt",
+    	"samples/Farm.txt",
+    	"samples/Seasons.txt",
+    	"samples/Friends.txt",
+    	"samples/Dance.txt",
+    	"samples/AnimalRace.txt",
+    	"samples/Bump.txt",
+    	"samples/QuickIntro.txt"
+	],
+    "backgrounds": [
+        {"md5":"b3.png","width":480 ,"height": 360,"ext": "png","name": "b3"},
+    	{"md5":"City.png","width":480,"height":360,"ext":"png","name":"City"},
+		{"md5":"River.png","width":480,"height":360,"ext":"png","name":"River"},
+		{"md5":"Grass.png","width":480,"height":360,"ext":"png","name":"Grass"},
+		{"md5":"Milky.png","width":480,"height":360,"ext":"png","name":"Milky"}
+    ],
+    "sprites": [
+		{"md5":"Boy.svg","width":200,"height":200,"ext":"svg","name":"Boy","order":"characters,01 object","tags":["characters","01 object"]},
+		{"md5":"Girl.svg","width":300,"height":300,"ext":"svg","name":"Girl","order":"characters,01 object","tags":["characters","01 object"]},
+		{"md5":"Cat.svg","width":210,"height":210,"ext":"svg","name":"Cat","order":"characters,01 object","tags":["characters","01 object"]},
+		{"md5":"Mouse.svg","width":192,"height":192,"ext":"svg","name":"Mouse","order":"characters,01 object","tags":["characters","01 object"]},
+		{"md5":"Crab.svg","width":200,"height":200,"ext":"svg","name":"Crab","order":"characters,01 object","tags":["characters","01 object"]},
+
+		{"md5":"ButtonA.svg","width":80,"height":80,"ext":"svg","name":"ButtonA","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"ButtonB2.svg","width":170,"height":170,"ext":"svg","name":"ButtonB2","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"ButtonC.svg","width":80,"height":80,"ext":"svg","name":"ButtonC","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"ButtonD.svg","width":80,"height":80,"ext":"svg","name":"ButtonD","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"Up.svg","width":80,"height":80,"ext":"svg","name":"Up","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"Dowm.svg","width":80,"height":80,"ext":"svg","name":"Dowm","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"Left.svg","width":80,"height":80,"ext":"svg","name":"Left","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"Right.svg","width":80,"height":80,"ext":"svg","name":"Right","order":"characters,02 button","tags":["characters","02 button"]},
+		{"md5":"Start.svg","width":170,"height":170,"ext":"Start","name":"Trophy","order":"characters,02 button","tags":["characters","02 button"]},
+
+		{"md5":"Airship.svg","width":200,"height":200,"ext":"svg","name":"Airship","order":"characters,03 weapon","tags":["characters","03 weapon"]},
+		{"md5":"Plane.svg","width":200,"height":200,"ext":"svg","name":"Plane","order":"characters,03 weapon","tags":["characters","03 weapon"]},
+		{"md5":"Atomicbomb.svg","width":77.8,"height":200,"ext":"svg","name":"Atomicbomb","order":"characters,03 weapon","tags":["characters","03 weapon"]},
+		{"md5":"Bomb.svg","width":146,"height":200,"ext":"svg","name":"Bomb","order":"characters,03 weapon","tags":["characters","03 weapon"]},
+
+		{"md5":"DryLand2.svg","width":27.9,"height":198.5,"ext":"svg","name":"DryLand2","order":"characters,04 map","tags":["characters","04 map"]},
+		{"md5":"Grassland.svg","width":200,"height":31.8,"ext":"svg","name":"Grassland","order":"characters,04 map","tags":["characters","04 map"]},
+		{"md5":"DryLand.svg","width":200,"height":40,"ext":"svg","name":"DryLand","order":"characters,04 map","tags":["characters","04 map"]},
+
+		{"md5":"Trophy.svg","width":200,"height":200,"ext":"svg","name":"Trophy","order":"characters,05 victory","tags":["characters","05 victory"]},
+		{"md5":"Goldcoin.svg","width":100,"height":100,"ext":"svg","name":"Goldcoin","order":"characters,05 victory","tags":["characters","05 victory"]},
+		{"md5":"Victory.svg","width":100,"height":100,"ext":"svg","name":"Victory","order":"characters,05 victory","tags":["characters","05 victory"]},
+		{"md5":"Fail.svg","width":100.1,"height":100,"ext":"svg","name":"Fail","order":"characters,05 victory","tags":["characters","05 victory"]}
+    ],
+    "sounds": ["pop.mp3"]
+}

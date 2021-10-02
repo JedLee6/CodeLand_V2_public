@@ -1,0 +1,6 @@
+哺乳动物>file:///android_asset/animalhtml/animal1.html
+鸟类>file:///android_asset/animalhtml/animal2.html
+爬行动物>file:///android_asset/animalhtml/animal3.html
+两栖动物>file:///android_asset/animalhtml/animal4.html
+鱼类>file:///android_asset/animalhtml/animal5.html
+昆虫>file:///android_asset/animalhtml/animal6.html

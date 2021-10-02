@@ -1,0 +1,21 @@
+<toolbox>
+        <category name="移动" colour="160">
+            <block type="turtle_move_internal">
+                <field name="VALUE">50</field>
+                <field name="DIR">moveForward</field>
+            </block>
+        </category>
+        <category name="旋转" colour="120">
+            <block type="turtle_turn_internal">
+                <field name="VALUE">30</field>
+            </block>
+        </category>
+        <category name="颜色" colour="160">
+            <block type="turtle_colour_internal">
+                <field name="COLOUR">#ff0000</field>
+            </block>
+            <block type="turtle_colour_internal">
+                <field name="COLOUR">#000000</field>
+            </block>
+        </category>
+</toolbox>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <!--因为视频太占内存，所以打算去掉-->
+    <com.redant.codeland.VideoViewFullScreen
+        android:id="@+id/video_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_code_module1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.redant.codeland.MyButton
+                android:id="@+id/button_set"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/icon_set" />
+
+            <com.redant.codeland.MyButton
+                android:id="@+id/button_music"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/music_on"
+                android:visibility="invisible" />
+
+            <com.redant.codeland.MyButton
+                android:id="@+id/button_help"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/icon_help"
+                android:visibility="invisible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="match_parent">
+            <com.redant.codeland.MyButton
+                android:id="@+id/button_contact_us"
+                android:layout_margin="5dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="@string/contact_us"
+                android:textSize="10dp"
+                android:background="@drawable/button_fillet_orange"
+                android:textColor="@color/white"
+                />
+            <com.redant.codeland.MyButton
+                android:id="@+id/button_privacy"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="@string/privacy"
+                android:textSize="10dp"
+                android:background="@drawable/button_fillet_orange"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            />
+
+    <com.redant.codeland.MyButton
+        android:id="@+id/main_iv_enlighten"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_fillet_pink"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        />
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            />
+    <com.redant.codeland.MyButton
+        android:id="@+id/main_iv_game"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_fillet_green"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        />
+        <!--android:shadowColor="#ff000000"-->
+        <!--android:shadowDx="5"-->
+        <!--android:shadowDy="5"-->
+        <!--android:shadowRadius="50"-->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            />
+    <com.redant.codeland.MyButton
+        android:id="@+id/main_iv_coding"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_fillet_blue"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        />
+
+<!--        <LinearLayout-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            />-->
+<!--        <com.redant.codeland.MyButton-->
+<!--            android:id="@+id/main_iv_git"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="4"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/button_fillet_blue"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            />-->
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            />
+        <com.redant.codeland.MyButton
+            android:id="@+id/main_iv_car"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_fillet_blue"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/image_main_logo"
+                android:src="@mipmap/activity_main_logo2_chinese"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.redant.codeland.scratchgame.scratchgameui.ScratchGameBaseActivity">
+
+    <ImageView
+        android:id="@+id/background_module2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_module2"/>
+
+    <HorizontalScrollView
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_gravity="center"
+        >
+        <!--android:fadingEdge="none"用不了-->
+        <!--android:overScrollMode="never"可以用-->
+
+        <LinearLayout
+            android:id="@+id/linearlayout_horizonalscrollview_game_base"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@mipmap/icon_back"
+        android:id="@+id/button_back_game_base"/>
+
+
+</FrameLayout>

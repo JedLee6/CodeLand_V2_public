@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="#000000">
+    <!--我们可以在guidance布局中设定与MainActivity中一样大小的控件，如Button,
+        （1）android:background="全透明背景图片"
+        （2）去掉android:text，这样我们的控件就在这层view中透明到下面的一层vie中
+        （3）在NewbieGuide.with()里面的setOnPageChangedListener重写方法
+        onPageChanged添加切换了该页面后的点击事件，代码写成与MainActivity中
+        的一样点击事件，如：intent跳转到另一个Activity
+        -->
+    <!--android:background="@mipmap/transparbackground"-->
+
+    <!--<Button-->
+        <!--android:id="@+id/guide_vo_finish"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@mipmap/transparbackground"-->
+        <!--/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textview_mainactvitiy_newbie_guide"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:text="@string/main_activity_guide"/>
+    </RelativeLayout>
+</LinearLayout>

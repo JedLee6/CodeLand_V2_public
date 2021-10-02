@@ -1,0 +1,16 @@
+
+
+body{
+	background-color: 66ffff;
+}
+
+h3.title{
+	text-align:center;
+	color:white   ;
+	font-size:30  px;
+}
+body > div{
+	width: 100%;
+	overflow-x: hidden;
+	padding-top: 25%;
+}
