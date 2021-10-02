@@ -147,11 +147,6 @@ dependencies {
     //第三方的一个轻量好用的安卓开发屏幕适配工具库
     implementation 'me.yatoooon:screenadaptation:1.0.8'
 
-    //注意：统计SDK必须依赖基础组件库。所以需要加入对应依赖:
-    implementation 'com.umeng.sdk:common:1.5.3'
-    //友盟SDK导入，为移动开发者提供专业的数据统计分析、开发和运营组件及推广服务
-    implementation 'com.umeng.sdk:analytics:7.5.3'
-
     //ScratchJr中特有的
     implementation 'com.google.android.gms:play-services-analytics:17.0.1'
 

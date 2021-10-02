@@ -14,8 +14,6 @@ import android.util.Log;
 
 import com.redant.codeland.R;
 import com.redant.codeland.entity.DataUtil;
-import com.umeng.analytics.MobclickAgent;
-import com.umeng.commonsdk.UMConfigure;
 import com.yatoooon.screenadaptation.ScreenAdapterTools;
 
 import org.litepal.LitePal;
@@ -55,21 +53,6 @@ public class MyApplication extends Application {
         context=getApplicationContext();
         //Bmob初始化
         Bmob.initialize(context,"4651e0faa766afd14c770667cf077701");
-
-        /**
-         * 参数1:上下文，必须的参数，不能为空。
-         * 参数2:【友盟+】 AppKey，非必须参数，如果Manifest文件中已配置AppKey，该参数可以传空，则使用Manifest中配置的AppKey，否则该参数必须传入。
-         * 参数3:【友盟+】 Channel，非必须参数，如果Manifest文件中已配置Channel，该参数可以传空，则使用Manifest中配置的Channel，否则该参数必须传入，Channel命名请详见Channel渠道命名规范。
-         * 参数4:设备类型，必须参数，传参数为UMConfigure.DEVICE_TYPE_PHONE则表示手机；传参数为UMConfigure.DEVICE_TYPE_BOX则表示盒子；默认为手机。
-         * 参数5:Push推送业务的secret，需要集成Push功能时必须传入Push的secret，否则传空。
-         */
-        UMConfigure.init(this, null, null, UMConfigure.DEVICE_TYPE_PHONE, null);
-
-        //场景类型设置接口,必须要有！之前 编程乐园就是没有这个借口导致一直无法登记数据！
-        MobclickAgent.setScenarioType(this, MobclickAgent.EScenarioType.E_UM_NORMAL);
-
-        // 使用集成测试模式请先在程序入口处调用如下代码，打开调试模式，打开统计SDK调试模式
-        UMConfigure.setLogEnabled(true);
 
         //首先mContext获得一下 Context全局的值
         mContext = getApplicationContext();

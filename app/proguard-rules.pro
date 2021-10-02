@@ -58,13 +58,6 @@
 public static final int *;
 }
 
--keep class com.umeng.** {*;}
-#友盟：如果您使用5.0.0及以上版本的SDK，请添加如下命令：
--keepclassmembers enum * {
-    public static **[] values();
-    public static ** valueOf(java.lang.String);
-}
-
 #-------------------------------------------------------------------------
 #---------------------------------3.与js互相调用的类-----------------------
 #第三部分与js互调的类，工程中没有直接跳过。一般你可以这样写

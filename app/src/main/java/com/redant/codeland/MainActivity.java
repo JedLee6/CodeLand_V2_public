@@ -29,7 +29,6 @@ import com.redant.codeland.scratchgame.scratchgameui.ProgramActivity;
 import com.redant.codeland.ui.GameBaseActivity;
 import com.redant.codeland.util.AppLanguageUtils;
 import com.redant.codeland.util.Util;
-import com.umeng.analytics.MobclickAgent;
 import com.yatoooon.screenadaptation.ScreenAdapterTools;
 
 
@@ -91,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //从ScratchJrActivity里面借过来的申请权限的方法，用来提前申请权限，避免进入home.html再申请权限时会导致没有权限，第一次加载失败
     @Override
     public void onRequestPermissionsResult(int requestCode,  String permissions[], int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == SCRATCHJR_CAMERA_MIC_PERMISSION) {
             int permissionId = 0;
             for (String permission : permissions) {
@@ -291,33 +291,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mediaPlayer=null;
     }
 
-    /**
-     * 友盟Session启动、App使用时长等基础数据统计接口API
-     * 在App中每个Activity的
-     * onResume方法中调用 MobclickAgent.onResume(context)
-     * onPause方法中调用 MobclickAgent.onPause(context)
-     *
-     * 确保在所有的Activity中都调用 MobclickAgent.onResume() 和onPause()方法
-     * 这两个调用不会阻塞应用程序的主线程，也不会影响应用程序的性能。
-     *
-     * 注意：如果您的Activity之间有继承或者控制关系，请不要同时在父和子Activity中
-     * 重复添加onPause和onResume方法，否则会造成重复统计，导致启动次数异常增高。
-     * (例如：使用TabHost、TabActivity、ActivityGroup时)。
-     */
-
     @Override
     protected void onResume() {
         super.onResume();
-        //友盟 Session启动、App使用时长等基础数据统计接口API
-        MobclickAgent.onResume(this);//统计时长
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-
-        //友盟 Session启动、App使用时长等基础数据统计接口API
-        MobclickAgent.onPause(this);//统计时长
 
 //        mediaPlayer.pause();
         mediaPlayer.release();
