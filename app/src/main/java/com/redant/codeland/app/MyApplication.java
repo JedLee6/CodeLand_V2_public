@@ -23,8 +23,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Locale;
 
-import cn.bmob.v3.Bmob;
-
 /**
  * Created by Administrator on 2017-12-11.
  */
@@ -51,8 +49,6 @@ public class MyApplication extends Application {
         super.onCreate();
 
         context=getApplicationContext();
-        //Bmob初始化
-        Bmob.initialize(context,"4651e0faa766afd14c770667cf077701");
 
         //首先mContext获得一下 Context全局的值
         mContext = getApplicationContext();

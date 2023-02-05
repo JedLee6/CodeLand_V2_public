@@ -26,24 +26,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="stateHidden|adjustPan">
-        <activity android:name=".bmob.TopicAndReplyActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle"/>
-        <activity android:name=".bmob.WriteTopicActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle"/>
-        <activity
-            android:name=".bmob.TopicListActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle"/>
-        <activity
-            android:name=".bmob.SectionActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle"/>
-        <activity
-            android:name=".bmob.RegisterAndLoginActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBarAndTitle"/>
 
         <meta-data
             android:name="designwidth"
