@@ -62,7 +62,7 @@ android {
 //        }
 //    }
 
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         /*
         为什么applicationId 要写 "a.blocklyKidProgramming"
@@ -80,7 +80,7 @@ android {
         //"1.0.5.202002121723_r"根据腾讯应用宝的要求，完善了用户协议以及隐私条款，把确定改为我同意
         applicationId "a.CodeLand2"
         minSdkVersion 18
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 8
         versionName "1.2"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'

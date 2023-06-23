@@ -39,7 +39,7 @@ public class MyApplication extends Application {
     public static final int LANGUAGE_CHINESE=1;
 
 
-    public static int languageFlag=LANGUAGE_CHINESE;
+    public static int languageFlag=LANGUAGE_ENGLISH;
 
 
     private static Context mContext = null;
@@ -53,22 +53,11 @@ public class MyApplication extends Application {
         //首先mContext获得一下 Context全局的值
         mContext = getApplicationContext();
 
-        //如果是第一次运行，获得系统的语言，并记录在MyApplication.languageFlag中
-        if(isFirstRun("Language")){
-            if(getLanguage().equals("zh-CN")){
-                languageFlag=LANGUAGE_CHINESE;
-            }
-            else{
-                languageFlag=LANGUAGE_ENGLISH;
-            }
-            Log.e("开始时",""+languageFlag);
+        if(getLanguage().equals("zh-CN")){
+            languageFlag=LANGUAGE_CHINESE;
         }
-        //如果不是第一次运行就读取SharedPreferences中的数值
         else{
-            SharedPreferences pref=getSharedPreferences("languageList",MODE_PRIVATE);
-            //读取SharedPreferences中的数值，没有时 默认1：中文
-            languageFlag=pref.getInt("language",1);
-            Log.e("第二次",""+languageFlag);
+            languageFlag=LANGUAGE_ENGLISH;
         }
 
         //初始化Litepal数据库，每次打开APP都要
