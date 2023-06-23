@@ -137,9 +137,9 @@
 
     <string name="scratch_game_guide_block">Game development tutorial</string>
 
-    <string name="scratch_block_guide">Scratch_block_guide</string>
+    <string name="scratch_block_guide">Scratch Block Guide</string>
 
-    <string name="scratch_game_cat">Catscratch_mouse</string>
+    <string name="scratch_game_cat">Cats Catch Mouse</string>
 
     <string name="scratch_animation_develop_factory">Try it on</string>
 
@@ -152,13 +152,13 @@
 
     <string name="scratch_hub_part_game">Game making</string>
 
-    <string name="scratch_hub_part_guide">Scratch_hub_part_guide</string>
+    <string name="scratch_hub_part_guide">Building blocks tutorial</string>
 
-    <string name="scratch_game_mouseStealGold">Scratch_game_mousestealgold</string>
+    <string name="scratch_game_mouseStealGold">Mouse Steal Gold</string>
 
     <string name="scratch_game_planeFight">Plane war</string>
 
-    <string name="scratch_animation_catAndMouse">Scratch_animation_catandmouse</string>
+    <string name="scratch_animation_catAndMouse">Cat and Mouse</string>
 
     <string name="scratch_animation_boy">Boy goes home</string>
 
