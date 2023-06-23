@@ -71,7 +71,8 @@ Code.getLang = function() {
   var lang = Code.getStringParamFromUrl('lang', '');
   if (Code.LANGUAGE_NAME[lang] === undefined) {
     // Default to English.
-    lang = 'zh-hans';
+    //lang = 'zh-hans';
+    lang = 'en';
   }
   return lang;
 };

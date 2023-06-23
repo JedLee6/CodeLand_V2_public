@@ -117,6 +117,8 @@
     <string name="scratch_guide_10">关10卡：使用等待、向前块，实现等待5秒后，人物向前移动一步</string>
     <string name="scratch_guide_11">关11卡：使用循环、设定速度、向前块，实现循环向前快速移动一步四次</string>
     <string name="scratch_guide_12">关12卡：用无限循环、向前块，实现一直向前移动</string>
+    <string name="save">保存</string>
+    <string name="load_project">加载</string>
 
 
 </resources>

@@ -47,6 +47,11 @@
                 android:background="@mipmap/music_on"
                 android:visibility="invisible" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></LinearLayout>
+
             <com.redant.codeland.MyButton
                 android:id="@+id/button_help"
                 android:layout_width="20dp"
@@ -62,20 +67,20 @@
             <com.redant.codeland.MyButton
                 android:id="@+id/button_contact_us"
                 android:layout_margin="5dp"
-                android:layout_width="60dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/contact_us"
-                android:textSize="10dp"
+                android:textSize="15sp"
                 android:background="@drawable/button_fillet_orange"
                 android:textColor="@color/white"
                 />
             <com.redant.codeland.MyButton
                 android:id="@+id/button_privacy"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/privacy"
-                android:textSize="10dp"
+                android:textSize="15sp"
                 android:background="@drawable/button_fillet_orange"
                 android:textColor="@color/white"
                 />
@@ -211,7 +216,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"></LinearLayout>
+            android:layout_weight="1"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"

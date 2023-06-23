@@ -185,6 +185,8 @@
     <string name="scratch_guide_11">Off 11 card: using loop, set speed, forward block to make the loop move forward one quick step four times</string>
 
     <string name="scratch_guide_12">Scratch_12 card: with infinite loop, forward block, to move all the way forward</string>
+    <string name="save">Save</string>
+    <string name="load_project">Load</string>
 
 
 </resources>

@@ -111,14 +111,14 @@
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:background="@mipmap/coding_button"
-            android:text="保存" />
+            android:text="@string/save" />
 
         <Button
             android:id="@+id/coding_test_ss"
             android:layout_width="80dp"
             android:layout_height="32dp"
             android:background="@mipmap/coding_button"
-            android:text="加载 " />
+            android:text="@string/load_project" />
 
     </LinearLayout>
 
