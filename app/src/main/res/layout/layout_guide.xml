@@ -9,11 +9,9 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
-        android:id="@+id/guide_tv_tip"/>
+        android:textSize="20sp" />
     <ImageView
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/guide_iv_example"/>
+        android:layout_height="wrap_content" />
 </LinearLayout>

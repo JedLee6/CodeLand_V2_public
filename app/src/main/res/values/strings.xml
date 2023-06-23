@@ -1,42 +1,30 @@
 <resources>
     <!--ScratchJr-->
-    <string name="share_extension_filter">.*\\.sjr</string>
     <string name="share_mimetype">application/x-scratchjr-project</string>
 
-    <string name="app_name">编程学院</string>
-    <string name="guide_writer">将四首古诗的标题和它的作者\n正确地拼在一起\n例如：</string>
-    <string name="guide_whole">将两首古诗的所有诗句\n正确地拼进对应的标题下\n例如：</string>
-    <string name="guide_celebrity">将两位名人的事迹\n正确的找到并拼在一起\n例如：</string>
-    <string name="guide_sanzijing">将三字经每句的后三句\n正确地拼在开头后面\n例如：</string>
-    <string name="guide_kinds">将动物与科属\n正确拼接在一起\n例如:</string>
-    <string name="guide_eating">将动物与食物\n正确拼接在一起\n例如:</string>
+    <string name="app_name">Code Land2</string>
     <string name="action_demo_android">Android</string>
     <string name="action_demo_lacey_curves">Lacey Curves</string>
     <string name="action_demo_paint_strokes">Paint Strokes</string>
-    <string name="guide_draw_graph1">先点击小人按钮查看问题，编写代码后，运行自己的答案！一定要按照步骤一步步的画线哟！</string>
-    <string name="knowledge_notebook">知识笔记</string>
-    <string name="enlighten_module_english">英语</string>
-    <string name="enlighten_module_animal">动物</string>
-    <string name="enlighten_module_poetry">古诗</string>
-    <string name="enlighten_module_sanzijing">三字经</string>
-    <string name="enlighten_module_celebrity">名人事迹</string>
-    <string name="gamebase_tadpole">小蝌蚪找妈妈</string>
-    <string name="gamebase_turtle">小车</string>
-    <string name="gamebase_pacman">吃豆人</string>
-    <string name="gamebase_box">推箱子</string>
-    <string name="gamebase_more_games">更多游戏</string>
-    <string name="button_continue">继续</string>
-    <string name="button_again">重玩</string>
-    <string name="button_exit">退出</string>
-    <string name="button_music">音乐</string>
-    <string name="button_help">新手帮助</string>
-    <string name="coding_output_text">输出文本</string>
-    <string name="coding_math">数学</string>
-    <string name="coding_loop">循环</string>
-    <string name="coding_variable">变量</string>
-    <string name="coding_logic">逻辑</string>
-    <string name="coding_array">数组</string>
-    <string name="coding_function">函数</string>
+    <string name="knowledge_notebook">Knowledge Notebook</string>
+    <string name="enlighten_module_english">English</string>
+    <string name="enlighten_module_animal">Animals</string>
+    <string name="enlighten_module_poetry">Poetry</string>
+    <string name="enlighten_module_sanzijing">Sanzijing</string>
+    <string name="enlighten_module_celebrity">Celebrity History</string>
+    <string name="gamebase_turtle">Little Car</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_again">Retry</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_music">Music</string>
+    <string name="button_help">Help</string>
+    <string name="coding_output_text">Output Text</string>
+    <string name="coding_math">Math</string>
+    <string name="coding_loop">Loop</string>
+    <string name="coding_variable">Variable</string>
+    <string name="coding_logic">Logic</string>
+    <string name="coding_array">Array</string>
+    <string name="coding_function">Function</string>
 
 
     <string name="code_javascript">JavaScript</string>
@@ -44,99 +32,159 @@
     <string name="code_php">PHP</string>
     <string name="code_lua">Lua</string>
     <string name="code_dart">Dart</string>
-    <string name="code_xml">XML</string>
 
 
     <string name="program_coding">编程学习</string>
     <string name="program_code">代码学习</string>
 
 
-    <string name="coding_code_land">编程乐园</string>
-    <string name="coding_code_land_load">   加载选中项目   </string>
-    <string name="coding_code_land_save">保存此项目</string>
-    <string name="coding_code_land_clear">清空</string>
-    <string name="main_activity_guide">点击下方的按钮\n选择你喜欢的学习模块吧</string>
-    <string name="code_base_guide">编程乐园\n用积木代码块创造你的世界！</string>
-    <string name="code_base_guide2">左右滑动手指</string>
-    <string name="module3_tip_dialog">任务要求</string>
-    <string name="module3_tip_dialog_1">查看答案</string>
-    <string name="contact_us_chinese"> 联系我们 </string>
-    <string name="contact_us_english"> Contact Us </string>
-    <string name="privacy_chinese"> 用户协议与隐私政策 </string>
-    <string name="privacy_english"> User Agreement and Privacy Policy </string>
-    <string name="privacy_information_chinese">安卓应用《编程乐园》及《编程学院》的《用户协议与隐私政策》\n本软件尊重并保护所有使用服务用户的个人隐私权。本软件为手机本地应用，不涉及任何网络功能、不申请任何网络权限。因此本软件不会将您的个人隐私信息对外披露或向第三方提供。本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本软件服务使用协议不可分割的一部分。\n1.适用范围\n在您使用本软件服务，本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n2.信息披露\n本软件没有网络权限，因此不会将您的信息披露给任何个人或组织，请您放心使用。</string>
-    <string name="privacy_information_english">Code Land and Code Land2’s User Agreement and Privacy Policy\nOur application respects and protects the privacy of all users of the service.This software is a mobile phone local application, does not involve any network functions, do not apply for any network permissions.Therefore, the software will not disclose your personal privacy information or provide it to any third party.The software will update this privacy policy from time to time.When you agree to the use of the software services, you shall be deemed to have agreed to the entire content of this privacy policy.This privacy policy is an integral part of the software service agreement.\n1.Scope of Application\nWhen you use the software service, the software will update this privacy policy from time to time.When you agree to the use of the software services, you shall be deemed to have agreed to the entire content of this privacy policy.\n2.Information Disclosure\nThis software has no network permissions, so it will not disclose your information to any individuals or organizations, please rest assured to use.\n</string>
-    <string name="contact_us_information_chinese">感谢亲爱的您使用“编程学院”，目前这款APP是免费且无广告的，我们诚恳地希望您分享给更多的孩子来学习趣味编程！为了您更好的使用体验，我们需要您同意提供文件读写权限、进行通话录音或本地录音权限和拍摄照片及录制视频权限，在软件使用期间，我们会严格保护您的隐私。\n我们是大连理工大学的Explosion开发团队，您有任何交流事项可以随时联系我们！\n联系人：彭佳汉\n邮箱:1250308041@qq.com\nQQ:1250308041\n</string>
-    <string name="contact_us_information_english">Thanks for using "Code Land2", which is also free and No Ads. We sincerely hope you can share it with your friends! We are the development team from China， Dalian University of Technology. If you have any problems, contact us！\nName:Jed Lee\nEmail:1250308041@qq.com\nPhone Number:+86 18742032738\nQQ:1250308041\nWechat:Sell404</string>
-    <string name="cancel">取消</string>
-    <string name="rename">重命名</string>
-    <string name="enter_project_name">输入该项目的项目名</string>
-    <string name="Confirm">确定</string>
-    <string name="Agree">我同意</string>
-    <string name="done">完成</string>
-    <string name="again">再玩一次</string>
-    <string name="next">下一关</string>
-    <string name="success">成功</string>
-    <string name="fail">失败</string>
-    <string name="no_block_in_workspace">你的工作区没有任何代码块喔，添加一些代码块吧</string>
-    <string name="contact_us"> 联系我们 </string>
-    <string name="privacy"> 用户协议与隐私政策 </string>
-    <string name="no_project_selected">对不起，你未选择一个项目</string>
-    <string name="clear">清空</string>
-    <string name="clear_all_project">是否确认清空所有项目?</string>
-    <string name="crash_barrier">碰到障碍物了哦</string>
-    <string name="not_reach_denstination">没有到达目的地</string>
-    <string name="congratulation">恭喜!你成功了</string>
-    <string name="fail_painting">你的代码还有问题哦，快找找看吧</string>
-    <string name="time_out">小朋友，你的时间已经用尽</string>
-    <string name="delete">删除 </string>
-    <string name="confirm_delete">是否确认删除选中的项目?</string>
-    <string name="over_level_tip">小朋友，你要完成前面的关卡后才能挑战这里喔 让我们先挑战 第</string>
-    <string name="over_level_tip_end">关吧！</string>
-    <string name="look_notebook">点击这里查看当前关卡的知识</string>
-    <string name="help">新手操作帮助</string>
-    <string name="run">运行代码块</string>
-    <string name="garbage_can">拖动要删除代码块到这里</string>
-    <string name="toolbox_guide">点击“动作”来使用代码块</string>
-    <string name="look_answer_show">观看答案演示</string>
-    <string name="save_project">保存当前项目</string>
-    <string name="load_other_project">加载其他项目</string>
-    <string name="click_toolbox">点击左侧工具栏，拖动代码块来创造项目</string>
-    <string name="code_result_show_here">代码块运行结果显示在这</string>
-    <string name="tip_and_answer">当前关卡的要求与答案</string>
-    <string name="dig_treasure">挖宝藏</string>
-    <string name="scratch_game_develop_guide">游戏开发教程</string>
-    <string name="scratch_game_develop_factory">游戏开发工厂</string>
-    <string name="scratch_try_factory">试一试</string>
-    <string name="scratch_game_guide_maze">迷宫游戏</string>
-    <string name="scratch_game_guide_block">游戏开发教程</string>
-    <string name="scratch_block_guide">积木使用教程</string>
-    <string name="scratch_game_cat">猫捉老鼠</string>
-    <!--<string name="scratch_block_guide">积木使用教程</string>-->
-    <string name="scratch_animation_develop_guide">动画制作教程</string>
-    <string name="scratch_animation_develop_factory">动手试一试</string>
-    <string name="scratch_animation_guide_maze">动画制作</string>
-    <string name="scratch_animation_guide_block">动画制作教程</string>
-    <!--<string name="scratch_block_guide">积木使用教程</string>-->
-    <string name="scratch_hub_part_animation">动画制作</string>
-    <string name="scratch_hub_part_game">游戏制作</string>
-    <string name="scratch_hub_part_guide">积木教程</string>
-    <string name="scratch_game_mouseStealGold">老鼠偷金</string>
-    <string name="scratch_game_planeFight">飞机大战</string>
-    <string name="scratch_animation_catAndMouse">猫捉老鼠</string>
-    <string name="scratch_animation_boy">男孩回家</string>
-    <string name="scratch_guide_1">关1卡：使用向前块进行移动，移动的步数不作要求</string>
-    <string name="scratch_guide_2">关2卡：使用向前块移动，移动步数为两步</string>
-    <string name="scratch_guide_3">关3卡：使用向前、向后、向上、向下块移动，移动步数各为一步</string>
-    <string name="scratch_guide_4">关4卡：使用向右转、向左转、跳跃、重置块活动，转动大小均为单位1，跳跃高度为1</string>
-    <string name="scratch_guide_5">关5卡：使用点击、向前块，实现每当点击人物便向前移动一步</string>
-    <string name="scratch_guide_6">关6卡：使用发送消息、接收消息、向前块，实现每当发送消息，人物向前移动一步，注意使用橙色消息</string>
-    <string name="scratch_guide_7">关7卡：使用说话、放大、缩小、重设大小块，同时实现相应功能</string>
-    <string name="scratch_guide_8">关8卡：使用隐藏、显示块，依次实行相应功能</string>
-    <string name="scratch_guide_9">关9卡：联系使用声音块</string>
-    <string name="scratch_guide_10">关10卡：使用等待、向前块，实现等待5秒后，人物向前移动一步</string>
-    <string name="scratch_guide_11">关11卡：使用循环、设定速度、向前块，实现循环向前快速移动一步四次</string>
-    <string name="scratch_guide_12">关12卡：用无限循环、向前块，实现一直向前移动</string>
+    <string name="coding_code_land">Code Land 2</string>
+    <string name="coding_code_land_load">Load the selected item</string>
+
+    <string name="coding_code_land_save">Save the project</string>
+
+    <string name="coding_code_land_clear">Clear</string>
+
+    <string name="main_activity_guide">Click on the button below \n to choose your favorite module</string>
+
+    <string name="code_base_guide2">Swipe left and right</string>
+
+    <string name="module3_tip_dialog">Task requirements</string>
+
+    <string name="module3_tip_dialog_1">View the answer</string>
+
+    <string name="contact_us_chinese">Contact us</string>
+    <string name="contact_us_english">Contact Us</string>
+    <string name="privacy_chinese">User Agreement and Privacy Policy</string>
+    <string name="privacy_english">User Agreement and Privacy Policy</string>
+
+    <string name="contact_us_information_chinese">感谢亲爱的您使用“编程学院”，目前这款APP是免费且无广告的，我们诚恳地希望您分享给更多的孩子来学习趣味编程！我们是大连理工大学的儿童编程APP的开发团队，您有任何交流事项可以随时联系我们！\n联系人：李同学\n邮箱:lijunde6@foxmail.com\nGithub:JedLee6</string>
+    <string name="contact_us_information_english">Thanks for using "Code Land 2", which is also free and No Ads. We sincerely hope you can share it with your friends! We are the development team from China Dalian University of Technology. If you have any problems, contact us！\nName:Jed Lee\nEmail:lijunde6@foxmail.com\nGithub:JedLee6</string>
+    <string name="privacy_information_chinese">隐私政策链接 URL: https://github.com/JedLee6/CodeLand_public\n\n安卓应用《编程乐园》及《编程学院》的《用户协议与隐私政策》\n本软件尊重并保护所有使用服务用户的个人隐私权。本软件为手机本地应用，不涉及任何网络功能、不申请任何网络权限。因此本软件不会将您的个人隐私信息对外披露或向第三方提供。本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本软件服务使用协议不可分割的一部分。\n1.适用范围\n在您使用本软件服务，本软件会不时更新本隐私权政策。您在同意本软件服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n2.信息披露\n本软件没有网络权限，因此不会将您的信息披露给任何个人或组织，请您放心使用。</string>
+    <string name="privacy_information_english">Privacy Policy URL: https://github.com/JedLee6/CodeLand_public\n\nCode Land and Code Land2’s Privacy Policy\nOur application respects and protects the privacy of all users of the service.This software is a mobile phone local application, does not involve any network functions, do not apply for any network permissions.Therefore, the software will not disclose your personal privacy information or provide it to any third party.The software will update this privacy policy from time to time.When you agree to the use of the software services, you shall be deemed to have agreed to the entire content of this privacy policy.This privacy policy is an integral part of the software service agreement.\n1.Scope of Application\nWhen you use the software service, the software will update this privacy policy from time to time.When you agree to the use of the software services, you shall be deemed to have agreed to the entire content of this privacy policy.\n2.Information Disclosure\nThis software has no network permissions, so it will not disclose your information to any individuals or organizations, please rest assured to use.\n</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="rename">Rename</string>
+
+    <string name="enter_project_name">Enter the project name of the project</string>
+
+    <string name="Confirm">Confirm</string>
+
+    <string name="Agree">I agree</string>
+
+    <string name="done">Done</string>
+
+    <string name="again">Play again</string>
+
+    <string name="next">Next level</string>
+
+    <string name="success">Success</string>
+
+    <string name="fail">Fail</string>
+
+    <string name="no_block_in_workspace">Your workspace doesn\'t have any blocks Oh, add some blocks</string>
+
+    <string name="contact_us">Contact us</string>
+
+    <string name="privacy">User Agreement and Privacy Policy</string>
+
+    <string name="no_project_selected">Sorry, you did not select an item</string>
+
+    <string name="clear">Clear</string>
+
+    <string name="clear_all_project">Do you want to clear all projects?</string>
+
+    <string name="congratulation">Congratulation! You made it</string>
+
+    <string name="fail_painting">There is something wrong with your code, look for it</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="confirm_delete">Are you sure to delete the selected items?</string>
+
+    <string name="over_level_tip">Little friend, you have to complete the previous level before you can challenge this.</string>
+
+    <string name="over_level_tip_end"></string>
+
+    <string name="look_notebook">Click here to view the knowledge of the current level</string>
+
+    <string name="help">Novice operation help</string>
+
+    <string name="run">Run code block</string>
+
+    <string name="garbage_can">Drag the block of code you want to delete here</string>
+
+    <string name="toolbox_guide">Click "Actions "to use the code block</string>
+
+    <string name="look_answer_show">Watch the answer demo</string>
+
+    <string name="save_project">Save the current project</string>
+
+    <string name="load_other_project">Load other items</string>
+
+    <string name="click_toolbox">Click on the left toolbar and drag a code block to create an item</string>
+
+    <string name="code_result_show_here">The result of running the code block is displayed here</string>
+
+    <string name="tip_and_answer">Current level requirements and answers</string>
+
+    <string name="scratch_game_develop_factory">Game development factory</string>
+
+    <string name="scratch_try_factory">Try it on</string>
+
+    <string name="scratch_game_guide_maze"></string>
+
+    <string name="scratch_game_guide_block">Game development tutorial</string>
+
+    <string name="scratch_block_guide">Scratch_block_guide</string>
+
+    <string name="scratch_game_cat">Catscratch_mouse</string>
+
+    <string name="scratch_animation_develop_factory">Try it on</string>
+
+    <string name="scratch_animation_guide_maze">Animation making</string>
+
+    <string name="scratch_animation_guide_block">Animation tutorial</string>
+
+
+    <string name="scratch_hub_part_animation">Animation making</string>
+
+    <string name="scratch_hub_part_game">Game making</string>
+
+    <string name="scratch_hub_part_guide">Scratch_hub_part_guide</string>
+
+    <string name="scratch_game_mouseStealGold">Scratch_game_mousestealgold</string>
+
+    <string name="scratch_game_planeFight">Plane war</string>
+
+    <string name="scratch_animation_catAndMouse">Scratch_animation_catandmouse</string>
+
+    <string name="scratch_animation_boy">Boy goes home</string>
+
+    <string name="scratch_guide_1">Pass 1 card: Move using forward block, no required number of moves</string>
+
+    <string name="scratch_guide_2">Level 2 card: Uses forward block movement with two moves</string>
+
+    <string name="scratch_guide_3">Switch 3 card: move with a forward, backward, up, and down block with one step each</string>
+
+    <string name="scratch_guide_4">Off 4 cards: Use turn right, turn left, jump, reset block activities, rotation size is unit 1, jump height is 1</string>
+
+    <string name="scratch_guide_5">Level 5 card: Uses a click, forward block to make the character move forward one step each time it is clicked</string>
+
+    <string name="scratch_guide_6">Level 6 card: uses Send message, receive message, forward block to realize that every time a message is sent, the character moves forward one step, note the orange message</string>
+
+    <string name="scratch_guide_7">Scratch7 card: use to talk, zoom in, zoom out, and resize chunks while implementing corresponding functions</string>
+
+    <string name="scratch_guide_8">Scratch8 card: uses a hide and display block, performing the corresponding function in turn</string>
+
+    <string name="scratch_guide_9">Off 9 cards : contact using sound blocks</string>
+
+    <string name="scratch_guide_10">Off 10 card: Use the wait, forward block to make the character move forward after waiting for 5 seconds</string>
+
+    <string name="scratch_guide_11">Off 11 card: using loop, set speed, forward block to make the loop move forward one quick step four times</string>
+
+    <string name="scratch_guide_12">Scratch_12 card: with infinite loop, forward block, to move all the way forward</string>
 
 
 </resources>

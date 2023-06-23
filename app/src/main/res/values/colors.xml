@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ff3F51B5</color>
-    <color name="colorPrimaryDark">#ff303F9F</color>
-    <color name="colorAccent">#ffFF4081</color>
     <color name="shallowYellow">#ffffff66</color>
     <color name="shallowRed">#ffff3366</color>
     <color name="shallowBlue">#11eeee</color>
     <color name="shallowGreen">#66ff99</color>
     <color name="shallowPink">#ffff99cc</color>
     <color name="shallowPurple">#ffcc66ff</color>
-    <color name="dialogBottom">#4400aa99</color>
-    <color name="dialogButton">#ff00aa99</color>
     <color name="buttonYellow">#FEF301</color>
     <color name="buttonOrange">#FF3300</color>
     <color name="buttonRed">#FF200B</color>

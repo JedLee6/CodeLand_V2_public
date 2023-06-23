@@ -25,7 +25,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
-            android:id="@+id/textview_base_blockly_actvitiy_newbie_guide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -36,7 +35,6 @@
             android:layout_marginRight="50dp"
             android:text="@string/look_notebook"/>
         <TextView
-            android:id="@+id/textview_base_blockly_actvitiy_newbie_guide2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -46,7 +44,6 @@
             android:layout_centerInParent="true"
             android:text="@string/help"/>
         <TextView
-            android:id="@+id/textview_base_blockly_actvitiy_newbie_guide3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

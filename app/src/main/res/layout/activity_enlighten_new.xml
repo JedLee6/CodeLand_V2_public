@@ -66,7 +66,6 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearlayout_knowledge_notebook"
         android:layout_gravity="center_vertical"
         >
         <ImageView
@@ -78,7 +77,6 @@
             />
         <!--添加文字后莫名其妙图片变小，只能自动设置 宽高-->
         <TextView
-            android:id="@+id/textview_knowledge_notebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

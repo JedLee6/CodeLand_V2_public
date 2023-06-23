@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.redant.codeland.scratchgame.scratchanimation.ScratchAnimationGuideActivity">
     <ImageView
-        android:id="@+id/background_module1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@mipmap/background_module1"/>
@@ -33,7 +32,6 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearlayout_animation_notebook"
         android:layout_gravity="center_vertical"
         >
         <ImageView
@@ -45,7 +43,6 @@
             />
         <!--添加文字后莫名其妙图片变小，只能自动设置 宽高-->
         <TextView
-            android:id="@+id/textview_animation_notebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

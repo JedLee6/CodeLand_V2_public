@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="animation_group_title">
-        <item>积木</item>
-        <item>动画</item>
-    </array>
-</resources>
+<resources></resources>

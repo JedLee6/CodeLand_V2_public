@@ -15,7 +15,6 @@
         android:layout_height="match_parent"
         android:layout_weight="3">
         <ImageView
-            android:id="@+id/finger_touch"
             android:layout_width="100dp"
             android:layout_height="160dp"
             android:layout_alignParentBottom="true"
@@ -23,7 +22,6 @@
             android:background="@mipmap/finger_touch"
             />
         <TextView
-            android:id="@+id/textview_mainactvitiy_newbie_guide"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"

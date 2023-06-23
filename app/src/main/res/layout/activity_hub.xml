@@ -23,9 +23,7 @@
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/hub_right"
-            >
+            android:layout_weight="1">
             <include layout="@layout/hub_right"/>
         </FrameLayout>
     </LinearLayout>

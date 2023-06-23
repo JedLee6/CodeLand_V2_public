@@ -23,7 +23,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="4">
                 <ImageView
-                    android:id="@+id/image_view_enlgish_blockly_zoom"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     app:srcCompat="@mipmap/block_zoom"/>
@@ -38,7 +37,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="4">
                 <ImageView
-                    android:id="@+id/image_view_enlgish_blockly_zoom2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     app:srcCompat="@mipmap/block_zoom2"/>
@@ -49,7 +47,6 @@
             android:layout_height="0dp"
             android:layout_weight="3">
             <TextView
-                android:id="@+id/textview_mainactvitiy_newbie_guide"
                 android:layout_gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
